@@ -7,7 +7,7 @@ An intelligent **Movie Recommendation System** that suggests similar movies usin
 ## 🚀 Features
 
 - 📽️ Recommends similar movies based on content metadata
-- 💡 Uses TF-IDF Vectorization + Cosine Similarity
+- 💡 Uses **CountVectorizer** + **Cosine Similarity**
 - 🌐 Clean and interactive Streamlit frontend
 - 🖼️ Dynamically fetches movie posters using **TMDB API**
 - 🔎 Fast and offline search with optional real-time visual enrichment
@@ -21,8 +21,8 @@ An intelligent **Movie Recommendation System** that suggests similar movies usin
    - Extract relevant features: genres, keywords, cast, director
 
 2. **Content-Based Filtering**:
-   - Combine features into a single string (`bag_of_words`)
-   - Apply TF-IDF vectorization to convert text to numeric format
+   - Combine features into a single string and preprocess them using **Spacy**
+   - Apply **CountVectorizer** to convert text to numeric format
    - Compute **Cosine Similarity** between movie vectors
 
 3. **Recommendation Engine**:
