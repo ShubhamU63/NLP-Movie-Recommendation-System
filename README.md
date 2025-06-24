@@ -51,4 +51,3 @@ An intelligent **Movie Recommendation System** that suggests similar movies usin
 - Files Used:
   - `movies_metadata.csv`
   - `credits.csv`
-  - `keywords.csv`
